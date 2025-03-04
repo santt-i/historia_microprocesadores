@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de los Microprocesadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>La Evolución de los Microprocesadores</h1>
+      <p>Un viaje a través del tiempo explorando la revolución tecnológica que cambió el mundo</p>
+      <button onclick="scrollToIntroduction()">Explorar Historia</button>
+    </div>
+  </header>
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Introducción -->
+    <div id="introduction" class="section">
+      <h2>Introducción</h2>
+      <p>La historia de los microprocesadores es fascinante y fundamental en el desarrollo de la tecnología moderna. También conocido como CPU, es un circuito integrado que contiene millones de pequeños componentes electrónicos, como transistores, que realizan cálculos y operaciones lógicas.</p>
+      <p>Desde su invención en la década de 1970, los microprocesadores han evolucionado rápidamente, pasando de ser simples chips que podían realizar operaciones básicas a ser procesadores capaces de realizar tareas complejas y sofisticadas.</p>
+      <img src="https://www.profesionalreview.com/wp-content/uploads/2018/04/Cuál-fue-el-primer-microprocesador-de-la-historia-y-quien-lo-inventó-1.jpg" alt="Primer microprocesador comercial">
+      <figcaption><a href="https://www.profesionalreview.com" target="_blank">Fuente: Profesional Review</a></figcaption>
+      <p>En esta historia, se pueden encontrar grandes hitos como la creación del primer microprocesador comercial, el <strong>Intel 4004</strong>, en 1971 o el desarrollo del primer procesador de 32 bits, el <strong>Motorola 68000</strong>, en 1979. Desde entonces, los microprocesadores han ido evolucionando para adaptarse a las necesidades de los usuarios, permitiendo el desarrollo de nuevas tecnologías y dispositivos.</p>
+    </div>
+
+    <!-- Los Inicios de los Microprocesadores -->
+    <div class="section">
+      <h2>Los Inicios de los Microprocesadores</h2>
+      <p>En la década de 1960, las computadoras eran grandes y costosas, y solo estaban disponibles para empresas y gobiernos. Los científicos y los ingenieros comenzaron a buscar formas de hacer que las computadoras fueran más pequeñas y económicas. Uno de los primeros intentos fue el desarrollo del microprocesador, un circuito integrado que contenía todos los componentes necesarios para realizar cálculos.</p>
+      <p>En 1971, Intel, una empresa de tecnología fundada en 1968, lanzó el primer microprocesador comercialmente disponible, el <strong>Intel 4004</strong>. Este microprocesador de 4 bits fue diseñado para ser utilizado en calculadoras y otros dispositivos electrónicos especializados. El 4004 fue capaz de realizar alrededor de 60,000 operaciones por segundo, un gran avance para la época.</p>
+      <img src="https://i.pinimg.com/originals/b4/3b/0a/b43b0a356be09289b238c2fe4522d6ac.jpg" alt="Cronología de microprocesadores">
+      <figcaption><a href="https://www.pinterest.com" target="_blank">Fuente: Pinterest</a></figcaption>
+    </div>
+
+    <!-- Línea del Tiempo -->
+    <section id="timeline" class="timeline">
+      <h2>Línea del Tiempo</h2>
+      <div class="timeline-grid">
+        <!-- Intel 4004 -->
+        <div class="timeline-card">
+          <div class="year">1971</div>
+          <h3>Intel 4004</h3>
+          <img src="images/intel-4004.jpg" alt="Intel 4004 - Primer microprocesador comercial">
+          <p>El primer microprocesador comercial de un solo chip. Revolucionó la industria al integrar todos los componentes de la CPU en un único circuito integrado.</p>
+          <div class="specs">4-bit @ 740 KHz</div>
+        </div>
+
+        <!-- AMD Am2900 Series -->
+        <div class="timeline-card">
+          <div class="year">1975</div>
+          <h3>AMD Am2900 Series</h3>
+          <img src="images/am2900.jpg" alt="AMD Am2900 Series - Familia de chips bit-slice">
+          <p>Familia de chips bit-slice que permitía construir procesadores personalizados. Fue ampliamente utilizado en sistemas embebidos y mainframes.</p>
+          <div class="specs">4-bit slices</div>
+        </div>
+
+        <!-- Intel 8080 -->
+        <div class="timeline-card">
+          <div class="year">1974</div>
+          <h3>Intel 8080</h3>
+          <img src="images/intel-8080.jpg" alt="Intel 8080 - Estándar para microprocesadores de 8 bits">
+          <p>Estableció el estándar para los microprocesadores de 8 bits y fue fundamental para el nacimiento de la industria de las computadoras personales.</p>
+          <div class="specs">8-bit @ 2 MHz</div>
+        </div>
+
+        <!-- AMD 8080 Clone -->
+        <div class="timeline-card">
+          <div class="year">1975</div>
+          <h3>AMD 8080 Clone</h3>
+          <img src="images/am9080.jpg" alt="AMD 8080 Clone - Compatible con Intel 8080">
+          <p>Versión compatible con el Intel 8080, destacándose por su bajo costo y alta fiabilidad.</p>
+          <div class="specs">8-bit @ 2 MHz</div>
+        </div>
+
+        <!-- Intel 8086 -->
+        <div class="timeline-card">
+          <div class="year">1978</div>
+          <h3>Intel 8086</h3>
+          <img src="images/intel-8086.jpg" alt="Intel 8086 - Introdujo la arquitectura x86">
+          <p>Introdujo la arquitectura x86 que dominaría la industria de las PC durante décadas.</p>
+          <div class="specs">16-bit @ 5-10 MHz</div>
+        </div>
+
+        <!-- AMD Am286 -->
+        <div class="timeline-card">
+          <div class="year">1983</div>
+          <h3>AMD Am286</h3>
+          <img src="images/am286.jpg" alt="AMD Am286 - Compatible con Intel 80286">
+          <p>Primer procesador AMD completamente compatible con la arquitectura x86 de Intel, ofreciendo mayor frecuencia de reloj.</p>
+          <div class="specs">16-bit @ 8-20 MHz</div>
+        </div>
+
+        <!-- Intel 386 -->
+        <div class="timeline-card">
+          <div class="year">1985</div>
+          <h3>Intel 386</h3>
+          <img src="images/intel-386.jpg" alt="Intel 386 - Primer procesador de 32 bits para PC">
+          <p>Primer procesador de 32 bits para PC que podía ejecutar múltiples tareas y manejar memoria virtual.</p>
+          <div class="specs">32-bit @ 16-33 MHz</div>
+        </div>
+
+        <!-- AMD Am386 -->
+        <div class="timeline-card">
+          <div class="year">1991</div>
+          <h3>AMD Am386</h3>
+          <img src="images/am386.jpg" alt="AMD Am386 - Clon de Intel 386">
+          <p>Versión mejorada del Intel 386, con mayor frecuencia de reloj y compatibilidad total con x86.</p>
+          <div class="specs">32-bit @ 20-40 MHz</div>
+        </div>
+
+        <!-- Intel Pentium -->
+        <div class="timeline-card">
+          <div class="year">1993</div>
+          <h3>Intel Pentium</h3>
+          <img src="images/intel-pentium.jpg" alt="Intel Pentium - Marcó el inicio de la era moderna">
+          <p>Marcó el inicio de la era moderna con arquitectura superescalar y cache L1 separada.</p>
+          <div class="specs">32-bit @ 60-66 MHz</div>
+        </div>
+
+        <!-- AMD K5 -->
+        <div class="timeline-card">
+          <div class="year">1996</div>
+          <h3>AMD K5</h3>
+          <img src="images/amdK5.jpg" alt="AMD K5 - Competidor del Intel Pentium">
+          <p>Primer procesador diseñado íntegramente por AMD, compatible con x86 y optimizado para aplicaciones de oficina.</p>
+          <div class="specs">32-bit @ 75-133 MHz</div>
+        </div>
+
+        <!-- Intel Core 2 Duo -->
+        <div class="timeline-card">
+          <div class="year">2006</div>
+          <h3>Core 2 Duo</h3>
+          <img src="images/core-2-duo.jpg" alt="Core 2 Duo - Procesamiento multi-núcleo">
+          <p>Introdujo el procesamiento multi-núcleo al mercado masivo, duplicando el rendimiento.</p>
+          <div class="specs">64-bit Dual Core</div>
+        </div>
+
+        <!-- AMD Athlon 64 -->
+        <div class="timeline-card">
+          <div class="year">2003</div>
+          <h3>AMD Athlon 64</h3>
+          <img src="images/amd_athlon_64.jpg" alt="AMD Athlon 64 - Primer procesador de 64 bits para consumidores">
+          <p>Primer procesador de 64 bits para consumidores, estableciendo un nuevo estándar en rendimiento.</p>
+          <div class="specs">64-bit @ 2 GHz+</div>
+        </div>
+
+        <!-- AMD Ryzen -->
+        <div class="timeline-card">
+          <div class="year">2017</div>
+          <h3>AMD Ryzen</h3>
+          <img src="images/AMDRyzen.jpg" alt="AMD Ryzen - Revolución en rendimiento multi-núcleo">
+          <p>Revivió la competencia en el mercado de CPUs con arquitectura Zen y alto rendimiento por núcleo.</p>
+          <div class="specs">64-bit @ 3.6 GHz+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabla Comparativa -->
+    <div class="section">
+      <h2>Tabla Comparativa de Microprocesadores</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Modelo</th>
+            <th>Fabricante</th>
+            <th>Bits</th>
+            <th>Frecuencia</th>
+            <th>Transistores</th>
+            <th>Innovación clave</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1971</td>
+            <td>Intel 4004</td>
+            <td>Intel</td>
+            <td>4-bit</td>
+            <td>740 kHz</td>
+            <td>2,300</td>
+            <td>Primer microprocesador comercial</td>
+          </tr>
+          <tr>
+            <td>1975</td>
+            <td>AMD Am2900 Series</td>
+            <td>AMD</td>
+            <td>4-bit slices</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>Familia de chips bit-slice</td>
+          </tr>
+          <tr>
+            <td>1974</td>
+            <td>Intel 8080</td>
+            <td>Intel</td>
+            <td>8-bit</td>
+            <td>2 MHz</td>
+            <td>6,000</td>
+            <td>Base para computadoras personales</td>
+          </tr>
+          <tr>
+            <td>1975</td>
+            <td>AMD 8080 Clone</td>
+            <td>AMD</td>
+            <td>8-bit</td>
+            <td>2 MHz</td>
+            <td>6,000</td>
+            <td>Compatible con Intel 8080</td>
+          </tr>
+          <tr>
+            <td>1978</td>
+            <td>Intel 8086</td>
+            <td>Intel</td>
+            <td>16-bit</td>
+            <td>5-10 MHz</td>
+            <td>29,000</td>
+            <td>Introdujo arquitectura x86</td>
+          </tr>
+          <tr>
+            <td>1983</td>
+            <td>AMD Am286</td>
+            <td>AMD</td>
+            <td>16-bit</td>
+            <td>8-20 MHz</td>
+            <td>134,000</td>
+            <td>Mejora de la arquitectura x86</td>
+          </tr>
+          <tr>
+            <td>1985</td>
+            <td>Intel 80386</td>
+            <td>Intel</td>
+            <td>32-bit</td>
+            <td>16-33 MHz</td>
+            <td>275,000</td>
+            <td>Primer procesador multitarea</td>
+          </tr>
+          <tr>
+            <td>1991</td>
+            <td>AMD Am386</td>
+            <td>AMD</td>
+            <td>32-bit</td>
+            <td>20-40 MHz</td>
+            <td>300,000+</td>
+            <td>Clon mejorado del Intel 386</td>
+          </tr>
+          <tr>
+            <td>1993</td>
+            <td>Intel Pentium</td>
+            <td>Intel</td>
+            <td>32-bit</td>
+            <td>60-66 MHz</td>
+            <td>3.1 millones</td>
+            <td>Arquitectura superescalar</td>
+          </tr>
+          <tr>
+            <td>1996</td>
+            <td>AMD K5</td>
+            <td>AMD</td>
+            <td>32-bit</td>
+            <td>75-133 MHz</td>
+            <td>4.3 millones</td>
+            <td>Competencia directa con Pentium</td>
+          </tr>
+          <tr>
+            <td>2003</td>
+            <td>AMD Athlon 64</td>
+            <td>AMD</td>
+            <td>64-bit</td>
+            <td>2 GHz+</td>
+            <td>106 millones</td>
+            <td>Primer CPU de 64 bits para consumidores</td>
+          </tr>
+          <tr>
+            <td>2006</td>
+            <td>Intel Core 2 Duo</td>
+            <td>Intel</td>
+            <td>64-bit</td>
+            <td>Dual Core</td>
+            <td>291 millones</td>
+            <td>Procesamiento multi-núcleo masivo</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>AMD Ryzen</td>
+            <td>AMD</td>
+            <td>64-bit</td>
+            <td>3.6 GHz+</td>
+            <td>4,800 millones</td>
+            <td>Arquitectura Zen y rendimiento por núcleo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Impacto en la Sociedad Moderna -->
+    <section class="impact">
+      <h2>Impacto en la Sociedad Moderna</h2>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h3>Revolución Digital</h3>
+          <p>Los microprocesadores han sido el motor de la revolución digital, permitiendo la miniaturización de dispositivos y el aumento exponencial en capacidad de procesamiento.</p>
+        </div>
+        <div class="impact-card">
+          <h3>Comunicación Global</h3>
+          <p>Han hecho posible la comunicación instantánea global a través de smartphones y dispositivos conectados.</p>
+        </div>
+        <div class="impact-card">
+          <h3>Innovación Tecnológica</h3>
+          <p>Impulsan avances en inteligencia artificial, realidad virtual y computación cuántica.</p>
+        </div>
+        <div class="impact-card">
+          <h3>Transformación Industrial</h3>
+          <p>Han revolucionado la automatización industrial y la fabricación inteligente, aumentando la eficiencia y precisión.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- El Futuro de los Microprocesadores -->
+    <div class="section">
+      <h2>El Futuro de los Microprocesadores</h2>
+      <ul>
+        <li><strong>Computación cuántica</strong>: Promete resolver problemas complejos mucho más rápido que los procesadores clásicos.</li>
+        <li><strong>Chips neuromórficos</strong>: Inspirados en el cerebro humano para IA eficiente.</li>
+        <li><strong>Límites físicos</strong>: Exploración de nuevas tecnologías como la fotónica.</li>
+        <li><strong>Sostenibilidad</strong>: Diseños con menor consumo energético.</li>
+      </ul>
+    </div>
+
+    <!-- Referencias -->
+    <div class="section references-section">
+      <h2>Referencias y Enlaces Externos</h2>
+      <ul>
+        <li><a href="https://www.intel.com" target="_blank">Intel - Historia de los Microprocesadores</a></li>
+        <li><a href="https://www.amd.com" target="_blank">AMD - Innovación en Procesadores</a></li>
+        <li><a href="https://www.profesionalreview.com" target="_blank">Profesional Review - Historia de los Microprocesadores</a></li>
+        <li><a href="https://www.silicon.es" target="_blank">Silicon.es - Tecnología y Microprocesadores</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Historia de los Microprocesadores</p>
+  </footer>
+
+  <script>
+    // Actualizar el año en el footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Función para desplazar a la introducción
+    function scrollToIntroduction() {
+      document.getElementById("introduction").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
